@@ -1,9 +1,7 @@
 <?php
-    //if (session_status() == PHP_SESSION_NONE){
-        if (!isset($_SESSION)){
-            session_start();
-            $_SESSION["user_id"] = 1;
-        }
+    //if (!isset($_SESSION)){
+        session_start();
+        $_SESSION["user_id"] = 1;
     //}
 ?>
 
